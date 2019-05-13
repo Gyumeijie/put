@@ -1,6 +1,8 @@
 # put [![](https://travis-ci.com/Gyumeijie/put.svg?branch=master)](https://travis-ci.com/Gyumeijie/put)
 
-> pictures uploading tool
+> **p**ictures **u**ploading **t**ool
+
+**put** allows you uploading pictures assets without downloading the whole repository, especially when the repository has a big size.
 
 ## Install
 
@@ -12,12 +14,11 @@ $ npm install @gyumeijie/put
 
 ```bash
 $ put ./YuMeiJie.jpeg
-
 ```
 
 ## Config
 
-> ~/.putrc
+> Put the following content to the `~/.putrc` file
 
 ```json
 {
@@ -29,6 +30,26 @@ $ put ./YuMeiJie.jpeg
     "token": "personal_access_token"
   }
 }
+```
+And take `https://github.com/Gyumeijie/put` for examples:
+
+```json
+{
+  "github": {
+    "branch": "master",
+    "owner": "Gyumeijie",
+    "path": "assets",
+    "repo": "put",
+    "token": "06aed0df73r8ed1t2914d08da776148d2f350059"
+  }
+}
+```
+With all things ready, running the following command:
+
+```bash
+$ put ./YuMeiJie.jpeg
+
+https://raw.githubusercontent.com/Gyumeijie/put/master/assets/YuMeiJie.jpeg
 ```
 
 For how to create a **personal access token** to access the `GitHub API`, please visit [here](https://github.com/settings/tokens).
