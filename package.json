@@ -1,0 +1,43 @@
+{
+  "name": "@gyumeijie/put",
+  "version": "1.0.0",
+  "description": "pictures uploading tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "bin": {
+    "put": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyumeijie/put.git"
+  },
+  "keywords": [
+    "uploader",
+    "pictures",
+    "images",
+    "upload",
+    "github"
+  ],
+  "author": "gyumeijie <18170879819@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gyumeijie/put/issues"
+  },
+  "homepage": "https://github.com/Gyumeijie/put#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "write-to-file-webpack": "^1.0.6"
+  }
+}
