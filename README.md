@@ -57,3 +57,6 @@ For how to create a **personal access token** to access the `GitHub API`, please
 ## License
 
 MIT © [Gyumeijie](https://github.com/Gyumeijie)
+
+## Related works
+- [wgit](https://github.com/Gyumeijie/wgit)
