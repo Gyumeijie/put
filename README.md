@@ -2,7 +2,7 @@
 
 > **p**ictures **u**ploading **t**ool
 
-**put** allows you uploading pictures assets without downloading the whole repository, especially when the repository has a big size.
+**put** allows you uploading pictures assets without downloading the whole repository. This is useful especially the repository to which some assets are put has a big size.
 
 ## Install
 
